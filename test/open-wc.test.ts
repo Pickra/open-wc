@@ -15,7 +15,7 @@ describe('OpenWc', () => {
     const el = await fixture<OpenWc>(html`<open-wc></open-wc>`);
     el.shadowRoot!.querySelector('button')!.click();
 
-    expect(el.counter).to.equal(6);
+    expect(el.counter).to.equal(7);
   });
 
   it('can override the title via attribute', async () => {
